@@ -1,0 +1,45 @@
+:root {
+  font-size: 2rem;
+}
+.nav-container {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between; /* Aligns logo to the left and links to the right */
+  align-items: center; /* Centers vertically */
+  padding: 0.15rem 1.5rem; /* Add padding for spacing */
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap; /* Allows navigation links to wrap on smaller screens */
+}
+
+.nav-link {
+  margin-right: 2rem; /* Add margin between links */
+}
+
+.logo img {
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 3.5rem; /* Adjust the height of the logo as needed */
+}
+.btn-exp {
+  color: antiquewhite;
+  text-decoration: none;
+  background-color: rgb(93, 51, 51);
+  border-radius: 0.5rem;
+}
+/* Media query for responsiveness */
+@media screen and (max-width: 48rem) {
+  .navbar {
+    justify-content: flex-end; /* Align navigation links to the right on smaller screens */
+  }
+
+  .nav-link {
+    margin-right: 0.625rem; /* Adjust margin for smaller screens */
+  }
+
+  .logo {
+    order: -1; /* Move the logo to the top on smaller screens */
+  }
+}
