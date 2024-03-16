@@ -1,26 +1,26 @@
 import React from "react";
-
+import bg1 from "../image/abti.jpg";
 function Service() {
   return (
-    <div class="container">
+    <div className="container " style={{ backgroundColor: "white" }}>
       <h5
-        class="text-center mt-5 mb-2 border rounded "
+        class="text-center mt-5 mb-2 border border-dark "
         style={{ backgroundColor: "yellow" }}
       >
         SERVICES OFFERED & PROJECT CATAGORY
       </h5>
 
       <div class="row">
-        <div class="col-sm-6 mt-5 mb-5 border rounded">
+        <div class="col-sm-6 mt-5 mb-5 border border-dark ">
           <p className="text-center mt-1 mb-1">SERVICES OFFER </p>
         </div>
 
-        <div class="col-sm-6 mt-5 mb-5 border rounded ">
+        <div class="col-sm-6 mt-5 mb-5 border border-dark ">
           <p className="text-center mt-1 mb-1">PROJECT CATEGORIES</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-6 border rounded">
+        <div class="col-6 border border-dark">
           <ul>
             <li>• HVAC System</li>
             <li>• Plumbing System</li>
@@ -35,7 +35,7 @@ function Service() {
             <li>• Vertical Transportation</li>
           </ul>
         </div>
-        <div class="col-sm-6  border rounded">
+        <div class="col-sm-6  border border-dark">
           <ul>
             <li>• HOSPITAL</li>
             <li>• HIGH-RISE BUILDING</li>

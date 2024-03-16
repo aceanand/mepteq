@@ -1,16 +1,20 @@
 import React from "react";
-
+import bh1 from "../image/wood.jpg";
 import chilled1 from "../image/CW.png";
 import chilled2 from "../image/CW2.jpg";
 function HVAC() {
   return (
-    <div>
-      <div className="text-container">
+    <div
+      className="my-3 mx-3"
+      style={{ backgroundImage: `url(${bh1})`, color: "white" }}
+    >
+      <div className="text-container ">
         <p
           style={{
             backgroundColor: "yellow",
-            fontSize: "48px",
+            fontSize: "58px",
             textAlign: "center",
+            color: "orangered",
           }}
         >
           HVAC SYSTEM
@@ -22,10 +26,10 @@ function HVAC() {
         </p>
         <ul>
           <li>
-            • Specialized Air-Conditioning for Clean Rooms, Operation Theaters,
+            Specialized Air-Conditioning for Clean Rooms, Operation Theaters,
             etc.
           </li>
-          <li>• VRV Air-Conditioning Systems</li>
+          <li> VRV Air-Conditioning Systems</li>
           <li>Central Air-Conditioning Systems</li>
 
           <li>Chilled Water Systems</li>
