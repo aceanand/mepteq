@@ -1,12 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./component/Home";
 import About from "./component/About";
 import NavBar from "./component/NavBar";
 import Product from "./component/Product";
-
-import Blog from "./component/Blog";
 
 import Footer from "./component/Footer";
 import Faq from "./component/Faq";
@@ -22,24 +20,20 @@ function App() {
       <BrowserRouter>
         <NavBar />
 
-        <About />
-        <Projects />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
         <Product />
         <Service />
         <HVAC />
         <ELV />
         <Plumbing />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-
-          <Route path="/product" element={<Product />} />
-
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
-
-        <Contact />
         <Faq />
         <Footer />
       </BrowserRouter>

@@ -8,7 +8,7 @@ function HVAC() {
       className="my-3 mx-3"
       style={{ backgroundImage: `url(${bh1})`, color: "white" }}
     >
-      <div className="text-container ">
+      <div className="text-container">
         <p
           style={{
             backgroundColor: "yellow",

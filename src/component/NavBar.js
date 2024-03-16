@@ -17,12 +17,12 @@ function NavBar() {
           About Us
         </NavLink>
 
-        <NavLink className="nav-link" to="/product">
-          Product
+        <NavLink className="nav-link" to="/projects">
+          Project
         </NavLink>
 
-        <NavLink className="nav-link" to="/blog">
-          Blog
+        <NavLink className="nav-link" to="/contact">
+          Contact
         </NavLink>
       </div>
     </div>
