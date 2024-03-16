@@ -2,7 +2,10 @@ import React from "react";
 import { MDBTable, MDBTableHead, MDBTableBody } from "mdb-react-ui-kit";
 function Product() {
   return (
-    <div style={{ margin: "20px", padding: "10px" }}>
+    <div
+      className="table-responsive"
+      style={{ margin: "20px", padding: "10px" }}
+    >
       <p
         style={{
           backgroundColor: "yellow",
