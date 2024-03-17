@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Product.css";
 import { MDBTable, MDBTableHead, MDBTableBody } from "mdb-react-ui-kit";
 function Product() {
   return (

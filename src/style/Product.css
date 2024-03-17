@@ -1,0 +1,61 @@
+/* Base styles for table */
+.table-responsive {
+  margin: 20px;
+  padding: 10px;
+}
+
+.table p {
+  background-color: yellow;
+  font-size: 48px;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding: 8px; /* Adjust padding as needed */
+}
+
+.table thead th {
+  background-color: #343a40; /* Dark background color for table header */
+  color: #fff; /* Text color for table header */
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+/* Row colors */
+.table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa; /* Alternate row background color */
+}
+
+.table-danger {
+  background-color: #f8d7da; /* Danger row background color */
+}
+
+.table-primary {
+  background-color: #b8daff; /* Primary row background color */
+}
+
+.table-secondary {
+  background-color: #d6d8db; /* Secondary row background color */
+}
+
+.table-success {
+  background-color: #c3e6cb; /* Success row background color */
+}
+
+.table-warning {
+  background-color: #ffeeba; /* Warning row background color */
+}
+
+.table-info {
+  background-color: #bee5eb; /* Info row background color */
+}
+
+.table-light {
+  background-color: #f8f9fa; /* Light row background color */
+}
