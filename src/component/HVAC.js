@@ -1,14 +1,17 @@
 import React from "react";
-import bh1 from "../image/wood.jpg";
+import bh1 from "../image/pexels.webp";
 import chilled1 from "../image/CW.png";
 import chilled2 from "../image/CW2.jpg";
 function HVAC() {
   return (
-    <div
-      className="my-3 mx-3"
-      style={{ backgroundImage: `url(${bh1})`, color: "white" }}
-    >
-      <div className="text-container">
+    <div className="my-3 mx-3">
+      <div
+        className="text-container"
+        style={{
+          backgroundImage: `url(${bh1})`,
+          color: "white",
+        }}
+      >
         <p
           style={{
             backgroundColor: "yellow",

@@ -1,16 +1,25 @@
 import React from "react";
 import plumb from "../image/plumb.jpg";
 import fire from "../image/fire.jpg";
-
+import plumber from "../image/pla.jpg";
 function Plumbing() {
   return (
     <div>
-      <div className="text-container">
+      <div
+        className="text-container"
+        style={{
+          backgroundImage: `url(${plumber})`,
+          height: "22rem",
+          backgroundSize: "cover",
+          color: "white",
+        }}
+      >
         <p
           style={{
             backgroundColor: "yellow",
             fontSize: "48px",
             textAlign: "center",
+            color: "black",
           }}
         >
           PLUMBING & FIRE PROTECTION

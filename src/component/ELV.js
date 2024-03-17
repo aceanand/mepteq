@@ -1,13 +1,23 @@
 import React from "react";
 import elec1 from "../image/elect.png";
 import elec2 from "../image/elv.jpg";
+import electricity from "../image/pngtree-crane-industry-lifting-device-device-background-picture-image_181914.jpg";
 function ELV() {
   return (
-    <div>
-      <div className="text-container">
+    <div className="my-3 mx-3">
+      <div
+        className="text-container"
+        style={{
+          backgroundImage: `url(${electricity})`,
+          height: "28rem",
+          backgroundSize: "cover",
+          color: "black",
+        }}
+      >
         <p
           style={{
             backgroundColor: "yellow",
+            color: "black",
             fontSize: "48px",
             textAlign: "center",
           }}
@@ -16,21 +26,42 @@ function ELV() {
         </p>
 
         <ul>
-          <li>Lighting Distribution</li>
-          <li>Power Distribution</li>
-          <li>Power Generation</li>
+          <li>
+            <font size="6">Lighting Distribution</font>
+          </li>
+          <li>
+            <font size="6">Power Distribution</font>
+          </li>
+          <li>
+            {" "}
+            <font size="6">Power Generation</font>
+          </li>
 
-          <li>Chilled Water Systems</li>
+          <li>
+            {" "}
+            <font size="6">Chilled Water Systems</font>
+          </li>
 
-          <li>Fire & Security Alarm System</li>
+          <li>
+            {" "}
+            <font size="6">Fire & Security Alarm System</font>
+          </li>
 
-          <li> Communication system</li>
+          <li>
+            {" "}
+            <font size="6"> Communication system</font>
+          </li>
 
-          <li> CCTV.</li>
-          <li> Structural Cabling</li>
-          <li>Access Control</li>
-          <li> Building Management System</li>
-          <li> Electrical Safety Audit</li>
+          <li>
+            <font size="6"> CCTV.</font>
+          </li>
+          <li>
+            <font size="6"> Structural Cabling</font>
+          </li>
+
+          <li>
+            <font size="6">Access Control</font>
+          </li>
         </ul>
       </div>
 

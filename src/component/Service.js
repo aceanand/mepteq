@@ -1,8 +1,11 @@
 import React from "react";
-import bg1 from "../image/abti.jpg";
+import bg1 from "../image/pe.jpeg";
 function Service() {
   return (
-    <div className="container " style={{ backgroundColor: "white" }}>
+    <div
+      className="container "
+      style={{ backgroundImage: `url(${bg1})`, color: "black" }}
+    >
       <h5
         class="text-center mt-5 mb-2 border border-dark "
         style={{ backgroundColor: "yellow" }}

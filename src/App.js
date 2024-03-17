@@ -33,7 +33,7 @@ function App() {
         <HVAC />
         <ELV />
         <Plumbing />
-
+        <Contact />
         <Faq />
         <Footer />
       </BrowserRouter>
